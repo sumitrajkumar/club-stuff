@@ -17,7 +17,7 @@ function Navbar() {
       <h1 id='main-heading'>The Sustainable Kit</h1>
 
       <div id='image'>
-        <img src="prob.jpg"  alt="nature-image"  loading="lazy"/>
+        <img src={require("C:\\Users\\sumit\\OneDrive\\Desktop\\React\\club stuff\\src\\prob.jpg")}  alt="nature"/>
       </div>
 
 
@@ -33,30 +33,30 @@ function Navbar() {
     <div className='cards'>
         <div className='box'>
         <p><b>Reusable Water bottle</b></p>
-        <img src="img3.jpg" alt="bootle-image"  loading="lazy"/>
+        <img src={require("C:\\Users\\sumit\\OneDrive\\Desktop\\React\\club stuff\\src\\img3.jpg")} alt="bootle"  />
         </div>
 
         <div className='box'>
         <p><b>Bamboo utensils</b></p>
-        <img src="img2.jpg" alt="utensils-image"  loading="lazy"/>
+        <img src={require("C:\\Users\\sumit\\OneDrive\\Desktop\\React\\club stuff\\src\\img2.jpg")} alt="utensils"  />
         </div>
 
 
         <div className='box'>
         <p><b>Reusable grocery bags</b></p>
-        <img src="img5.jpg" alt="bags-image"  loading="lazy" />
+        <img src={require("C:\\Users\\sumit\\OneDrive\\Desktop\\React\\club stuff\\src\\img5.jpg")} alt="bags"   />
         </div>
 
 
         <div className='box'>
         <p><b>Eco friendly notebook</b></p>
-        <img src="img4.jpg" alt="notebook-image"  loading="lazy"/>
+        <img src={require("C:\\Users\\sumit\\OneDrive\\Desktop\\React\\club stuff\\src\\img4.jpg")} alt="notebook"  />
         </div>
 
 
         <div className='box'>
         <p><b>Solar-powered charger</b></p>
-        <img src="img1.jpg" alt="charger-image"  loading="lazy"/>
+        <img src={require("C:\\Users\\sumit\\OneDrive\\Desktop\\React\\club stuff\\src\\img1.jpg")} alt="charger" />
         </div>
     </div>
 
